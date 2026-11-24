@@ -22,14 +22,14 @@ export const site = {
   url: (process.env.NEXT_PUBLIC_SITE_URL || "https://www.example.com").replace(/\/$/, ""),
   title: "Hotel Swarna Heights, MG Road, Vijayawada",
   description:
-    "Book direct at Hotel Swarna Heights on MG Road, Labbipet, Vijayawada. Deluxe, Executive and Luxury Suite rooms, free breakfast and Wi-Fi, a pool and a 24-hour front desk.",
+    "Book direct at Hotel Swarna Heights on MG Road, Labbipet, Vijayawada. Deluxe, Executive and Luxury Suite rooms, free Wi-Fi, a pool and a 24-hour front desk.",
   embed: { primary: "#c4705e", theme: "light", label: "Reserve your stay" },
   ogImg: "/images/suite-1-1600.webp",
   tagline: "Stay in the heart of the city.",
   headline: "The city’s main street, a quiet room above it",
   lead: "Considered rooms, a warm welcome and a pool, in the middle of Vijayawada’s MG Road.",
   intro:
-    "Hotel Swarna Heights stands on MG Road in Labbipet, steps from PVP Square and the shops, restaurants and parks that make Vijayawada’s centre. Rooms are air-conditioned and unhurried, breakfast and Wi-Fi are free, and the front desk never closes. Every stay is booked direct, with live rates.",
+    "Hotel Swarna Heights stands on MG Road in Labbipet, steps from PVP Square and the shops, restaurants and parks that make Vijayawada’s centre. Rooms are air-conditioned and unhurried, Wi-Fi is free, and the front desk never closes. Every stay is booked direct, with live rates.",
   facts: [
     ["24h", "Front desk"],
     ["3", "Room categories"],
@@ -42,7 +42,7 @@ export const site = {
       name: "Deluxe Room",
       bed: "Double bed",
       desc: "A calm, well-lit room with a padded headboard, reading lights either side and a soft brown-and-ivory scheme. Everything you need for a short city stay.",
-      perks: ["Air conditioning", "Free Wi-Fi", "Free breakfast", "Room service"],
+      perks: ["Air conditioning", "Free Wi-Fi", "Room service"],
       imgs: [["deluxe-1", "Deluxe Room bed", "50% 55%"], ["deluxe-2", "Deluxe Room, front view", "50% 60%"]],
     },
     {
@@ -56,12 +56,11 @@ export const site = {
       name: "Luxury Suite",
       bed: "Bed with living area",
       desc: "Our largest address: a tufted king headboard, a separate sofa and glass table, a wardrobe and wide polished floors. Room to spread out on longer stays.",
-      perks: ["Air conditioning", "Sofa seating area", "Free Wi-Fi", "Free breakfast"],
+      perks: ["Air conditioning", "Sofa seating area", "Free Wi-Fi"],
       imgs: [["suite-1", "Luxury Suite", "50% 55%"], ["suite-2", "Luxury Suite, entrance view", "50% 55%"], ["suite-3", "Luxury Suite seating", "50% 55%"]],
     },
   ],
   amenities: [
-    ["Free breakfast", "Included with your stay."],
     ["Swimming pool", "A place to unwind."],
     ["Free Wi-Fi", "Throughout the hotel."],
     ["Air conditioning", "In every room."],
@@ -95,7 +94,7 @@ export const site = {
   ],
   faq: [
     ["What are the check-in and check-out times?", "Check-in is from 12:00 PM and check-out is by 11:00 AM."],
-    ["What are the main amenities?", "A pool, free breakfast, free Wi-Fi and air-conditioned rooms, plus a 24-hour front desk, a restaurant with room service, and full-service laundry."],
+    ["What are the main amenities?", "A pool, free Wi-Fi and air-conditioned rooms, plus a 24-hour front desk, a restaurant with room service, and full-service laundry."],
     ["Does the hotel offer free Wi-Fi?", "Yes, Wi-Fi is free for guests."],
     ["Is there a pool?", "Yes, the hotel has a pool."],
     ["How long does it take to get from Hotel Swarna Heights to Sri Durga Malleswara Swamy Varla Devasthanam?", "By car: about 15 minutes. By public transport: about 25 minutes."],
