@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1, h2, h3 { font-family: var(--fd), Georgia, serif; font-weight: 300; }
+  a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px solid #e0a899; outline-offset: 3px; }
+  hotel-booking-engine { display: inline-block; }
+  ::selection { background: #e0a899; color: #0b0c0e; }
+}
+@layer components {
+  .eyebrow { @apply font-fb text-[11px] font-medium uppercase tracking-[0.32em] text-rose; }
+  .rule { @apply h-px w-14 bg-rose; }
+}
