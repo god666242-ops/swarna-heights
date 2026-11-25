@@ -103,3 +103,6 @@ export const site = {
     ["How do I book?", "Press Reserve your stay, choose your dates and complete the booking in the window that opens. You can also call the front desk on 070955 47777."],
   ],
 };
+
+// Used by the Terms & Conditions and Privacy Policy pages (legal.js)
+export const policy = { checkIn: "12:00 PM", checkOut: "11:00 AM", googleFonts: true };

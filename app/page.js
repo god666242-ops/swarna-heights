@@ -189,7 +189,13 @@ export default function Page() {
           <nav aria-label="Footer" className="flex flex-wrap gap-x-6 gap-y-2 text-[12px] uppercase tracking-[0.2em]">
             {nav.map(([t, id]) => <a key={id} href={"#" + id} className="hover:text-rose">{t}</a>)}
           </nav>
-          <small>© {new Date().getFullYear()} {h.full}</small>
+          <div>
+            <small>© {new Date().getFullYear()} {h.full}</small>
+            <nav aria-label="Legal" className="mt-3 flex flex-wrap gap-x-5 gap-y-1 text-[12px] uppercase tracking-[0.2em]">
+              <a href="/terms" className="hover:text-rose">Terms &amp; Conditions</a>
+              <a href="/privacy-policy" className="hover:text-rose">Privacy Policy</a>
+            </nav>
+          </div>
         </div>
       </footer>
     </>
